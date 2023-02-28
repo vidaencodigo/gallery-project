@@ -63,7 +63,7 @@ body {
 .social--items {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     gap: 12px;
 }
 
@@ -91,4 +91,60 @@ body {
     font-size: 12px;
     line-height: 15px;
     color: #BDBDBD;
+}
+
+
+.gallery--images {
+    margin: 39px 12px 44px 12px;
+}
+
+
+.gallery--images section img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.grid {
+    display: grid;
+    gap: 12px;
+    grid-template-areas:
+        'image-1 image-2 image-2'
+        'image-3 image-3 image-4'
+        'image-5 image-6 image-4';
+}
+
+.image-1 {
+    grid-area: image-1;
+}
+
+.image-2 {
+    grid-area: image-2;
+}
+
+.image-3 {
+    grid-area: image-3;
+}
+
+.image-4 {
+    grid-area: image-4;
+}
+
+.image-5 {
+    grid-area: image-5;
+}
+
+.image-6 {
+    grid-area: image-6;
+}
+
+footer {
+    padding: 0 24px 24px 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #B9BDCF;
+    text-align: center;
 }
